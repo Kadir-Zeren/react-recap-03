@@ -1,5 +1,9 @@
-const Name = () => {
-  return <div>Name</div>;
+const Name = ({ name }) => {
+  return (
+    <div>
+      <p>Hello {name} </p>
+    </div>
+  );
 };
 
 export default Name;
